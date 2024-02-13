@@ -33,9 +33,9 @@ export default function HomePage() {
         <p className={clsx("text-[18px] text-center")}>
           {"HAPPY VALENTINE DAY"}
         </p>
-        <button onClick={handleClickStart}>
+        <button className="w-[150px] h-[85px]" onClick={handleClickStart}>
           <img
-            className={clsx("w-[150px] h-fit object-cover py-[1rem]")}
+            className={clsx("w-[150px] h-[85px] object-cover py-[1rem]")}
             src="./assets/start.png"
           />
         </button>
