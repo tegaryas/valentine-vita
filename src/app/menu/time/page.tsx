@@ -50,7 +50,7 @@ export default function TimePage() {
             className={clsx(
               "w-[100px] h-[100px] object-cover rounded-[50%] border border-black border-[6px]"
             )}
-            src=".../assets/album/photo-4.jpeg"
+            src="../assets/album/photo-4.jpeg"
             alt=""
           />
           <p
