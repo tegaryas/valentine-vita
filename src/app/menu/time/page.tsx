@@ -26,7 +26,7 @@ export default function TimePage() {
     <div className={clsx("w-full h-full content-center")}>
       <img
         className={clsx("w-full h-[100vh] object-cover", "absolute")}
-        src="/assets/background/background.jpg"
+        src="../assets/background/background.jpg"
       />
       <div
         className={clsx("z-20 absolute bg-black opacity-20 w-full h-full")}
@@ -50,7 +50,7 @@ export default function TimePage() {
             className={clsx(
               "w-[100px] h-[100px] object-cover rounded-[50%] border border-black border-[6px]"
             )}
-            src="./assets/album/photo-4.jpeg"
+            src=".../assets/album/photo-4.jpeg"
             alt=""
           />
           <p
@@ -100,7 +100,7 @@ export default function TimePage() {
         >
           <img
             className={clsx("z-50 w-[50px] object-cover rotate-180")}
-            src="/assets/arrow-back.png"
+            src="../assets/arrow-back.png"
           />
         </button>
       </div>
