@@ -13,7 +13,7 @@ export default function MessagePage() {
     <div className={clsx("w-full h-full content-center")}>
       <img
         className={clsx("w-full h-[100vh] object-cover fixed")}
-        src="../assets/background/background.jpg"
+        src="./assets/background/background.jpg"
       />
       <div className={clsx("z-20 fixed bg-black opacity-10 w-full h-full")} />
       <div
@@ -29,7 +29,7 @@ export default function MessagePage() {
         </p>
         <img
           className={clsx("w-[400px] h-[400px]")}
-          src="/assets/bubble-chat.png"
+          src="./assets/bubble-chat.png"
         />
         <button
           onClick={handleBack}
@@ -39,7 +39,7 @@ export default function MessagePage() {
         >
           <img
             className={clsx("z-50 w-[60px] object-cover rotate-180")}
-            src="/assets/arrow-back.png"
+            src="./assets/arrow-back.png"
             alt=""
           />
         </button>

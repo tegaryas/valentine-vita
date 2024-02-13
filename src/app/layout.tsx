@@ -19,9 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="shortcut icon" href="/assets/favicon.png" />
+      <link rel="shortcut icon" href="./assets/favicon.png" />
       <body className={press_start_2P.className}>
-        <audio id="audio" src="/assets/music/background-music.mp3" /> {children}
+        <audio id="audio" src="./assets/music/background-music.mp3" />{" "}
+        {children}
       </body>
     </html>
   );
