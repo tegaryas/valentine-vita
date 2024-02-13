@@ -15,7 +15,7 @@ export default function HomePage() {
     <div className={clsx("w-full h-full content-center")}>
       <img
         className={clsx("w-full h-[100vh] object-cover", "absolute")}
-        src="/assets/background/background.jpg"
+        src="./assets/background/background.jpg"
       />
       <div
         className={clsx("z-20 absolute bg-black opacity-20 w-full h-full")}
@@ -36,7 +36,7 @@ export default function HomePage() {
         <button onClick={handleClickStart}>
           <img
             className={clsx("w-[150px] h-fit object-cover py-[1rem]")}
-            src="/assets/start.png"
+            src="./assets/start.png"
           />
         </button>
       </div>
