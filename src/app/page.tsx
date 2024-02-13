@@ -6,8 +6,10 @@ export default function HomePage() {
   const router = useRouter();
 
   const handleClickStart = () => {
-    let audio = document.getElementById("audio") as HTMLMediaElement;
-    audio.play();
+    if (typeof document !== "undefined") {
+      let audio = document.getElementById("audio") as HTMLMediaElement;
+      audio.play();
+    }
     router.push("/menu");
   };
 

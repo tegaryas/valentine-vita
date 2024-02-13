@@ -26,7 +26,7 @@ export default function TimePage() {
     <div className={clsx("w-full h-full content-center")}>
       <img
         className={clsx("w-full h-[100vh] object-cover", "absolute")}
-        src="./assets/background/background.jpg"
+        src="https://github.com/tegaryas/valentine-vita/blob/main/public/assets/background/background.jpg?raw=true"
       />
       <div
         className={clsx("z-20 absolute bg-black opacity-20 w-full h-full")}
@@ -50,7 +50,7 @@ export default function TimePage() {
             className={clsx(
               "w-[100px] h-[100px] object-cover rounded-[50%] border border-black border-[6px]"
             )}
-            src="./assets/album/photo-5.jpeg"
+            src="https://github.com/tegaryas/valentine-vita/blob/main/public/assets/album/photo-5.jpeg?raw=true"
           />
           <p
             className={clsx(
@@ -99,7 +99,7 @@ export default function TimePage() {
         >
           <img
             className={clsx("z-50 w-[50px] object-cover rotate-180")}
-            src="./assets/arrow-back.png"
+            src="https://github.com/tegaryas/valentine-vita/blob/main/public/assets/arrow-back.png?raw=true"
           />
         </button>
       </div>
