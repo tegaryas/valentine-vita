@@ -21,7 +21,7 @@ export default function MenuPage() {
     <div className={clsx("w-full h-full content-center")}>
       <img
         className={clsx("w-full h-[100vh] object-cover", "absolute")}
-        src="../assets/background/background.jpg"
+        src="/assets/background/background.jpg"
       />
       <div
         className={clsx("z-20 absolute bg-black opacity-10 w-full h-full")}
@@ -42,7 +42,7 @@ export default function MenuPage() {
         >
           <img
             className={clsx("w-[60px] md:w-[170px] object-cover")}
-            src="./assets/menu/camera.png"
+            src="/assets/menu/camera.png"
           />
           <p className={clsx("text-[16px] text-center", "md: text-[23px]")}>
             {"MOMENT"}
@@ -56,7 +56,7 @@ export default function MenuPage() {
         >
           <img
             className={clsx("w-[60px] md:w-[130px] object-cover")}
-            src="./assets/menu/clock.png"
+            src="/assets/menu/clock.png"
           />
           <p className={clsx("text-[16px] text-center", "md: text-[23px]")}>
             {"TIME"}
@@ -70,7 +70,7 @@ export default function MenuPage() {
         >
           <img
             className={clsx("w-[70px] md:w-[170px] object-cover")}
-            src="./assets/menu/letter.png"
+            src="/assets/menu/letter.png"
           />
           <p className={clsx("text-[16px] text-center", "md: text-[23px]")}>
             {"MESSAGE"}
