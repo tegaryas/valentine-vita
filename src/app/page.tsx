@@ -31,7 +31,7 @@ export default function HomePage() {
         </p>
         <p className={clsx("text-[18px] text-center")}>{"DEAR MY VITA"}</p>
         <p className={clsx("text-[18px] text-center")}>
-          {"HAPPY VALENTINE DAYS"}
+          {"HAPPY VALENTINE DAY"}
         </p>
         <button onClick={handleClickStart}>
           <img
